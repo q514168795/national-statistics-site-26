@@ -9,8 +9,6 @@ export const ROUTES = [
   { id: 'economy', label: 'Economy & Prices', short: 'Economy' },
   { id: 'demographics', label: 'Demographics', short: 'Population' },
   { id: 'regions', label: 'Regions', short: 'Regions' },
-  { id: 'explorer', label: 'Data Explorer', short: 'Explorer' },
-  { id: 'methodology', label: 'Methodology', short: 'Methods' },
 ];
 
 export const VALID_ROUTE_IDS = ROUTES.map((r) => r.id);
